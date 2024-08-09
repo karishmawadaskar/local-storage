@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: block;
+   margin: 20px auto;
+    border: 2px solid #999999;
+    border-radius: 20px;
+    max-width: 780px;
+    padding: 10px;
+    background-color:#f8eded;
+    box-shadow: 10px 10px 20px #999999;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+}
+#name{
+    width: 800px;
+    background-color: rgb(223, 235, 247);
+    margin:20px 50px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#save{
+   max-width: 100px;
+    background-color: rgb(200, 245, 201);
+    margin:20px 20px;
+    padding: 10px 30px; 
+    border-radius: 10px;
+}
+
+#logout{
+    max-width: 100px;
+    background-color: rgb(246, 112, 91);
+    margin:20px 20px;
+    padding: 10px 30px; 
+    border-radius: 10px;
+    
+}
+
+#greeting{
+
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+}
